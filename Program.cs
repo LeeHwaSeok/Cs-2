@@ -115,7 +115,7 @@ namespace Cs_2
         Example ins = new Example();       //'1'
         ins.InstanceMethod();              //instance의 경우 void로 메모리할당이 되지 않았기에 '1'번과 같이 new로 메모리를 할당시켜줘야함
 
-        Example.InstanceMethod();          //'0' 메모리를 할당받지 못해 오류 출력
+        // Example.InstanceMethod();          //'0' 메모리를 할당받지 못해 오류 출력
 
 
         }
